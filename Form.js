@@ -39,6 +39,10 @@ export default function Form() {
                 name="email"
                 value={formData.email}
             />
+            <textarea 
+               placeholder='Add comments'
+               
+             />
         </form>
     )
 }
