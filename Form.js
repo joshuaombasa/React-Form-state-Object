@@ -14,7 +14,7 @@ export default function Form() {
         setFormData(prevFormData => {
             return {
                 ...prevFormData,
-                [event.target.name]: event.target.value
+                [name]: event.target.value
             }
         })
     }
