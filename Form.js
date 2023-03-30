@@ -30,6 +30,7 @@ export default function Form() {
                 placeholder="Last Name"
                 onChange={handleChange}
                 name="lastName"
+                value={formData.lastName}
             />
             <input
                 type="email"
