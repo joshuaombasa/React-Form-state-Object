@@ -48,6 +48,16 @@ export default function Form() {
                name="comments"
                value={formData.comments}
              />
+              <input 
+                type="checkbox" 
+                id="isFriendly" 
+                checked={formData.isFriendly}
+                onChange={handleChange}
+                name="isFriendly"
+            />
+            <label htmlFor="isFriendly">Are you friendly?</label>
+            <br />
+       
         </form>
     )
 }
