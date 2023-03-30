@@ -41,7 +41,9 @@ export default function Form() {
             />
             <textarea 
                placeholder='Add comments'
-               
+               onChange={handleChange}
+               name="comments"
+               value={formData.comments}
              />
         </form>
     )
