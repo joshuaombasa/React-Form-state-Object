@@ -34,12 +34,12 @@ export default function Form() {
                 onChange={handleChange}
                 name="lastName"
             />
-            {/* <input
+            <input
                 type="email"
                 placeholder="Email"
                 onChange={handleChange}
                 name="email"
-            /> */}
+            />
         </form>
     )
 }
