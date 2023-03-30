@@ -4,9 +4,7 @@ export default function Form() {
     const [formData, setFormData] = React.useState(
         {firstName: "", lastName: "", email: ""}
     )
-    
-    
-    
+     
     console.log(formData)
     
     function handleChange(event) {
