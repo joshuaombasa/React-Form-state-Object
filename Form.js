@@ -5,9 +5,7 @@ export default function Form() {
         {firstName: "", lastName: "", email: ""}
     )
     
-    /**
-     * Challenge: add an email field/state to the form
-     */
+    
     
     console.log(formData)
     
