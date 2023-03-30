@@ -14,7 +14,7 @@ export default function Form() {
         setFormData(prevFormData => {
             return {
                 ...prevFormData,
-                [name]: event.target.value
+                [name]: type === "checkbox" ? checked : value
             }
         })
     }
