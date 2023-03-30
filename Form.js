@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Form() {
     const [formData, setFormData] = React.useState(
-        // {firstName: "", lastName: "", email: ""}
+        {firstName: "", lastName: "", email: ""}
     )
     
     /**
