@@ -37,6 +37,7 @@ export default function Form() {
                 placeholder="Email"
                 onChange={handleChange}
                 name="email"
+                value={formData.email}
             />
         </form>
     )
