@@ -23,6 +23,7 @@ export default function Form() {
                 placeholder="First Name"
                 onChange={handleChange}
                 name="firstName"
+                value={formData.firstName}
             />
             <input
                 type="text"
